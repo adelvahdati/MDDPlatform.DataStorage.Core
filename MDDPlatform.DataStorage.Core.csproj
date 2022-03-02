@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="MDDPlatform.SharedKernel" Version="3.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>MDDPlatform.DataStorage.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adel Vahdati</Authors>
+    <Description>Base interfaces for using in Repository pattern and Database query</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTag>Repository, Database, Query</PackageTag>
+    <RepositoryUrl>https://github.com/adelvahdati/MDDPlatform.DataStorage.Core</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
